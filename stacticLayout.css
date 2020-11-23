@@ -1,0 +1,203 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6f7;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.content_wrapper{
+flex: 1 0 auto;
+overflow-x: hidden;
+}
+
+.navigation{
+left: 0;
+right: 0;
+z-index: 40;
+text-transform: uppercase;
+background-color: transparent;
+transition: background-color .2s ease-in,opacity .2s ease-in;
+}
+
+#mastHead{
+    background-image: linear-gradient(0deg, transparent 60%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0.4) 100%), url("https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center top;
+    background-size: cover;
+    width: 1920px;
+    height: 800px;
+}
+
+.mastHead_container{
+    padding-right: 40px;
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    line-height: 1.3;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mastHead_preline{
+    color: #2DBD9D;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    line-height: 13px;
+}
+
+.mastHead_headline{
+    opacity: 1;
+    min-height: auto;
+    flex-shrink: 0; 
+    width: 40%;
+    vertical-align: middle;
+    font-size: 56px;
+    line-height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mastHead_subheadline{
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 16px;
+  font-weight: 600;
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: inherit;   
+}
+
+.mastHead_secondarymessage{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.mastHead_input{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6em;
+    height: 56px;
+}
+
+.white{
+    padding-top: 0px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.mastHead_legal{
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    box-sizing: inherit;
+    align-self: center;
+    margin-top: 16px;
+    opacity: 0.6;
+    color: #fff;
+    width: 536px;
+}
+
+.ribbon{
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(318.68deg, rgb(15, 73, 92) 0% rgb(13, 54, 64) 49.72%, rgb(8, 20, 31) 100%);
+
+}
+
+.row{
+    align-items: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1520px;
+    box-sizing: inherit;
+}
+
+.ribbon_brands{
+    max-width: 355px;
+    padding-left: 0;
+}
+
+.ribbon_eyebrow{
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.ribbon_info{
+    text-align: left;
+}
+
+.ribbon_details{
+    margin-top: 5px;
+    box-sizing: inherit;
+
+}
+
+,ribbon_show{
+    font-size: 24px;
+    line-height: 32px;
+    display: inline;
+}
+
+.ribbon_learnmore{
+    display: block;
+    padding-top: 5px;
+}
+
+.ribbion_button-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.ribbon-white-button{
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #ffffff;
+    border: 2px solid;
+    min-width: 136px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
